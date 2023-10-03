@@ -233,10 +233,16 @@ My name is **EsproMention**. I'm here to help you to get everyone's attention by
 
 I have some additional cool features and also I can work in channels.
 
-Don't forget to join my   [🍁Update🥀](https://t.me/EsproUpdate).  
+Don't forget to join my   
+[🍁Update🥀](https://t.me/EsproUpdate).  
+
 to recieve information on all the latest updates.
 
-Hit     /help     to find out my commands and the use of them.
+Hit 
+
+/help  
+
+to find out my commands and the use of them.
 '''
   await EsproMention.send_message(message.chat.id, text, disable_web_page_preview=True)
 
@@ -247,7 +253,7 @@ async def help(client, message):
 Hey, let's have a quick look at my commands.
 
 **Commands**:
-- /ping "input": <i>Mention all members.</i>
+- /all "input": <i>Mention all members.</i>
 - /remove: <i>Remove all deleted accounts.</i>
 - /admins: <i>Mention all admins.</i>
 - /bots: <i>Get the full bot list.</i>
