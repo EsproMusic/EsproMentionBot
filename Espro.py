@@ -239,7 +239,7 @@ Hit /help to find out my commands and the use of them.
   await EsproMention.send_message(message.chat.id, text, disable_web_page_preview=True)
 
 
-@teletips.on_message(filters.command("help"))
+@EsproMention.on_message(filters.command("help"))
 async def help(client, message):
   text = '''
 Hey, let's have a quick look at my commands.
@@ -253,7 +253,7 @@ Hey, let's have a quick look at my commands.
 
 If you have any questions on how to use me, feel free to ask in my  [🍁support🥀](https://t.me/EsproSupport).   Owner By  [🍁Ritikraj🥀](https://t.me/i_ii_ritikraj_ii_i).
 '''
-  await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
+  await EsproMention.send_message(message.chat.id, text, disable_web_page_preview=True)
 
 print("EsproMention is alive!")  
 teletips.run()
