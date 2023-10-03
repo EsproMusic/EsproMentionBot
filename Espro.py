@@ -256,5 +256,5 @@ If you have any questions on how to use me, feel free to ask in my  [🍁support
   await EsproMention.send_message(message.chat.id, text, disable_web_page_preview=True)
 
 print("EsproMention is alive!")  
-teletips.run()
+EsproMention.run()
  
